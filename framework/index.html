@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard App</title>
+    <link rel="stylesheet" href="css/tailwind.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <header class="bg-orange-700 py-4 text-gray-200">
+        <div class="container mx-auto px-4">
+            <div class="md:flex md:justify-between">
+                <div class="flex justify-between items-center">
+                    <a class="block hover:text-yellow-500 " href="index.html"><h1 class="text-xl font-semibold tracking-wide">Dashboard</h1></a>
+                    <button class="hover:text-yellow-500 focus:outline-none md:hidden">
+                        <svg class="fill-current w-12 h-12" viewbox="0 0 100 80">
+                            <rect width="100" height="20" rx="8"></rect>
+                            <rect width="100" height="20" rx="10" y="30"></rect>
+                            <rect width="100" height="20" rx="10" y="60"></rect>
+                        </svg>
+                    </button>
+                </div>
+                <nav class="mt-4 hidden md:block md:mt-0">
+                    <ul class="md:flex">
+                        <li class="block hover:bg-yellow-500 rounded">
+                            <a class="flex block hover:text-orange-700 py-2 px-2 tracking-wide" href="#">Notifications
+                                <span class="flex place-content-center h-3 w-3">
+                                    <span class="animate-ping absolute inline-flex h-2 w-2 rounded-full bg-red-800 opacity-75"></span>
+                                    <span class="relative inline-flex rounded-full h-2 w-2 bg-red-800"></span>
+                                </span>
+
+                            </a>
+                        </li>
+                        <li class="block hover:bg-yellow-500 rounded">
+                            <a class="block hover:text-orange-700 py-2 px-2 tracking-wide" href="#">Activity</a>
+                        </li>
+                        <li class="block hover:bg-yellow-500 rounded">
+                            <a class="block hover:text-orange-700 py-2 px-2 tracking-wide" href="#">Messages</a>
+                        </li>
+                        <li class="block hover:bg-yellow-500 rounded">
+                            <a class="block hover:text-orange-700 py-2 px-2 tracking-wide" href="#">Account</a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>    
+        </div>
+    </header>
+</body>
+</html>
